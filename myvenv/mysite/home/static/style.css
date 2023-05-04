@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    flex-grow: 1;
+}
+
+.login-button {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+header>span>img {
+    width: 30px;
+    border-radius: 100%;
+}
+
+section>img {
+    width: 100%;
+}
